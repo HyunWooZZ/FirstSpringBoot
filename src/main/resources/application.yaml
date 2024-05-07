@@ -1,0 +1,8 @@
+hyunwoo:
+  firstboot:
+    buildNumber: 3.0-yaml
+---
+spring.config.activate.on-profile: dev
+hyunwoo:
+  firstboot:
+    buildNumber: 4.0-yaml-dev
