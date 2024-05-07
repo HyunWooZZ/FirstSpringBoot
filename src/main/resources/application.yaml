@@ -1,8 +1,18 @@
 hyunwoo:
   firstboot:
     buildNumber: 3.0-yaml
+
+logging:
+  level:
+    com.hyunwoo.firstboot.HelloController: INFO
 ---
+
 spring.config.activate.on-profile: dev
 hyunwoo:
   firstboot:
     buildNumber: 4.0-yaml-dev
+
+
+
+
+
